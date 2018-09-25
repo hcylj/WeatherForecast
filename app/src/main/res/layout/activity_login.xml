@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lou.i.com.weatherforecast.Login">
+
+<LinearLayout
+    android:background="#CE2527"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="45dp">
+    <ImageView
+        android:id="@+id/title_city"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:src="@mipmap/title_city"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:text="@string/weatherf"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:paddingTop="13dp"
+        />
+    <ImageView
+        android:id="@+id/local"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+       android:src="@mipmap/base_action_bar_action_city"/>
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:src="@mipmap/title_share"/>
+    <ImageView
+        android:id="@+id/update"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:src="@mipmap/title_update"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/biz_plugin_weather_shenzhen_bg">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            //第一分区
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:layout_height="0dp"
+                    android:text="南京"
+                    android:textColor="#fff"
+                    android:textSize="55dp"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="20:21发布"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="湿度：68%"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:paddingLeft="18dp"
+
+                    />
+            </LinearLayout>
+          //第二分区
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="0dp"
+                            android:text="PM2.5"
+                            android:paddingLeft="12dp"
+                            android:textColor="#fff"
+                            android:textSize="20dp"
+                            android:paddingTop="20dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.5"
+                            android:layout_height="0dp"
+                            android:text="25"
+                            android:gravity="center"
+                            android:textColor="#fff"
+                            android:textSize="35dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1.8"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:paddingTop="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/biz_plugin_weather_0_50"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="良"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/biz_plugin_weather_qing"/>
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="6日星期四"
+                    android:textColor="#fff"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="22°C~29°C"
+                    android:textColor="#fff"
+                    android:textSize="25dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="阴"
+                    android:textColor="#fff"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="风力3级"
+                    android:textColor="#fff"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
